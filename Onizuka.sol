@@ -252,7 +252,7 @@ contract OnizukaContract is Context, IERC20Upgradeable {
     address public lpPair;
 
     // UNI ROUTER
-    address constant private _routerAddress = 0x3E960E93B811D5f6727eeBe48eA5bB6A73639306;
+    address constant private _routerAddress = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
 
     address constant public DEAD = 0x000000000000000000000000000000000000dEaD;
     address payable private _marketingWallet = payable(0x3E960E93B811D5f6727eeBe48eA5bB6A73639306);
